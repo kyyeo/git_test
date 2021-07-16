@@ -1,3 +1,8 @@
 Note: This is a diary of learnings from The Odin Project.
 In this first entry on 16 July 2021, I am practicing how to write to a text file and subsequently push it to GitHub.
 
+With this next entry, I understand that to discard changes that have not yet been committed, utilise the "git restore <file>" or "git reset --hard" for all files.
+Furthermore, I learn that "git commit" still remains in my local directory. Meaning it requires a push to GitHub.
+The next learning is how to append, rather than overwrite, input to a text file using double carets (vs a single caret >). 
+To write to a textfile, one would use "cat > <file>" or "
+"cat >> <file>".
