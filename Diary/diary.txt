@@ -6,3 +6,8 @@ Furthermore, I learn that "git commit" still remains in my local directory. Mean
 The next learning is how to append, rather than overwrite, input to a text file using double carets (vs a single caret >). 
 To write to a textfile, one would use "cat > <file>" or "
 "cat >> <file>".
+Fri 16 Jul 2021 06:42:00 PM +08
+Use date >> diary.txt to append the date to the diary!
+Use echo command to echo input to the text file
+to escape quotes in shell, start the sentence with a $' sign. The forward slash single quote is also an escape.
+Fri 16 Jul 2021 06:47:05 PM +08
