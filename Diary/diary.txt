@@ -11,3 +11,18 @@ Use date >> diary.txt to append the date to the diary!
 Use echo command to echo input to the text file
 to escape quotes in shell, start the sentence with a $' sign. The forward slash single quote is also an escape.
 Fri 16 Jul 2021 06:47:05 PM +08
+
+A few days has elapsed from the last practice. Knowledge of commands are no longer on my fingertips.
+Sun 25 Jul 2021 04:23:06 PM +08
+testing echo
+use echo "<text>" >> <filename> to echo text
+some Git revision. 
+git remove -v to find out which folder is connected to git
+git status to determine what files have not been staged
+git add <filename> to stage the file
+git commit -m "text" to commit the changes with a message
+git log to review the commits
+git add . adds all files
+git push origin main to upload work to GitHub repo
+git reset helps to revert changes if a file has been erroneously modified
+when using "cat >> diary.txt", CTRL+D to end input.
