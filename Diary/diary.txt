@@ -30,3 +30,4 @@ use a hyphen as a word separator, as opposed to undercsore, as Google treats hyp
 a point of learning: name your folderse in lowercase, as it makes CLI navigation much easier. 
 in terms of HTML, if a target file is in the same directory as the invoking html file, then use the filename directly. 
 otherwise, write the directory name as part of the path with a forward slash, followed by the filename!
+if the target file is in a directory above where index.html resides, then use ../
