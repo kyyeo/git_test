@@ -34,3 +34,14 @@ if the target file is in a directory above where index.html resides, then use ..
 Sun 25 Jul 2021 11:37:56 PM +08
  
 put together a basic html page
+Tue 27 Jul 2021 10:24:34 PM +08
+another day, another CSS
+
+CSS is a style sheet language!
+in CSS, it's important to recognise a RULESET, which comprises the SELECTOR, DECLARATION (property and value)
+Curly braces, colon, and semicolons are the 3 most important symbols. 
+The basic understanding uses an ELEMENT SELECTOR (i.e. p for <p>)
+There are also the ID, CLASS, ATTRIBUTE, and PSEUDO-CLASS selectors!
+The difference bewteen an ID and CLASS selector is that an ID selector is unique on a given HTML page, while a CLASS selector can have multiple instances.
+Perhaps most interesting for now is when an element can be selected during a specific state (e.g. cursor hovering).
+And obviously, there are many more selectors to learn. 
