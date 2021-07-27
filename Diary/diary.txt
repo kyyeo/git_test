@@ -45,3 +45,13 @@ There are also the ID, CLASS, ATTRIBUTE, and PSEUDO-CLASS selectors!
 The difference bewteen an ID and CLASS selector is that an ID selector is unique on a given HTML page, while a CLASS selector can have multiple instances.
 Perhaps most interesting for now is when an element can be selected during a specific state (e.g. cursor hovering).
 And obviously, there are many more selectors to learn. 
+interesting to learn that <link> is for an EXTERNAL resource, such as Google Fonts. 
+Although it is commonly for the CSS stylesheet in another local directory, it can also link to externally.
+
+CSS is about the box model: padding, border, margin
+The values set top, right, bottom, left
+When you set two values on a property like margin or padding, the first value affects the element's top and bottom side
+the second value affects the left and right side.
+width, style and color 
+Unsure about the differences between BLOCK and INLINE elements. Though it seems that BLOCK means taking up space (i.e. respected), while INLINE means its margin is ignored. 
+ 
