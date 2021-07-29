@@ -55,3 +55,7 @@ the second value affects the left and right side.
 width, style and color 
 Unsure about the differences between BLOCK and INLINE elements. Though it seems that BLOCK means taking up space (i.e. respected), while INLINE means its margin is ignored. 
  
+On to JavaScript.
+As opposed to <link>, which is placed between the <head>, <script> has been placed just before the closing </body> tag.
+This is to due to script loading strategies. There are alternative approaches. 
+
