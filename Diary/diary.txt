@@ -59,3 +59,11 @@ On to JavaScript.
 As opposed to <link>, which is placed between the <head>, <script> has been placed just before the closing </body> tag.
 This is to due to script loading strategies. There are alternative approaches. 
 
+Thu 29 Jul 2021 10:36:50 PM +08
+JavaScript is case sensitive!
+There is a difference between var and let to declare variables
+There are various data types like String, Number, Boolean, Array, or even Object.
+Comment in JavaScript using /* and */
+Or even //
+learnt some javascript
+whoopie
