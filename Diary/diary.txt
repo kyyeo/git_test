@@ -67,3 +67,6 @@ Comment in JavaScript using /* and */
 Or even //
 learnt some javascript
 whoopie
+Sat 31 Jul 2021 10:34:39 PM +08
+started on freecodecamp's Responsive web design course
+completed basic HTML on FCC!
