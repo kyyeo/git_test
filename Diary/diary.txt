@@ -123,5 +123,7 @@ e.g. @media (max-width: 768px) { ... }
 3 CSS frameworks for reset: Timothy framework, Blueprint, and Yahoo 
 HTML5 semantic elements clearly describe their meaning to both the developer and browser (e.g. form, table, article, header, footer)
 @import url("reset.css");  useful command to import the reset CSS sheet, which can be saved in the same folder as index.html
-
+the purpose of a CSS RESET is to remove any unwanted styles that have been applied by the browser, in default.
+A browser can have default font size and font family, for example. 
+Useful website to use for resets is CSSRESET.com
 
