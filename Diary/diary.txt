@@ -67,6 +67,57 @@ Comment in JavaScript using /* and */
 Or even //
 learnt some javascript
 whoopie
+
 Sat 31 Jul 2021 10:34:39 PM +08
 started on freecodecamp's Responsive web design course
 completed basic HTML on FCC!
+Sun 01 Aug 2021 01:26:05 PM +08
+started on basic CSS on FCC
+a CSS class is a reusable style!
+CSS fonts can "degrade"
+Multiple CSS classes can be applied to a HTML element through the Class attribute, and applying a space between class names!
+CSS borders have properties such as style, color and width.
+border-radius property of a CSS border can be in px or % value; 50% rounds the image!
+it is considered best practice for ID attributes to be unique!
+ID is more important than a CLASS (higher specificity), meaning ID is applied first
+Remember that ID and CLASS are known as "CSS Selectors"
+To apply CSS, either STYLE, CLASS, or ID can be used. 
+
+Remember that STYLE is applied within the respective HTML element (e.g. <p style="...">)
+inline style is more important than id, and id is more important than class declarations
+But more critically, there is one better way to override other CSS: !important
+This is used beside the actual style to be kept (e.g. color: pink !important;)
+
+CSS padding goes clockwise, beginning from the top (i.e. Clockwise notation)
+CSS margin applies the same principle as CSS padding values^
+Know that there are other CSS selectors available such as [attr=value]
+There is a difference between ABSOLUTE (px/in/mm) and RELATIVE (em/rem) units of measurement
+The ORDER of class declarations in the <style> section determines importance; SECOND declaration takes precedence over the first declaration!
+Realise that the class ATTRIBUTE of a HTML element can contain multiple values
+
+hex (or hexadecimal) code are base 16 numbers (vs decimals which are base 10 numbers with symbols from 0 to 9)
+in hex, 0 to 9 remain, but ABCDEF continue the numbering from 10 to 15. Thus, there are 16 "numbers".
+hex colors are segmented for Red, Green, and Blue (RGB)
+hex codes are 6 hexadecimal digits.
+Know that hex codes can be shortened (#FF0000 is the same as #F00)
+
+colours can also be represented using rgb(0,0,0) notation.
+the maximum value for R/G/B is 255
+this can be remembered from hex notation where F x F is the equivalent of 16*16 = 256
+
+a CSS variable (e.g. --penguin-skin) can be created within CSS classes.
+var(--penguin-skin) can then be referenced as a CSS property value
+fallbacks can be employed, so that an alternative value is used if the variable is invalid
+there is a :root pseudo-class selector in CSS, which matches the root element of the document, usually HTML
+CSS variables are typically declared there, as INHERITANCE means that the variable is usable globally, and accessed from any other selector in the style sheet.
+
+browser fallbacks and compatibility
+e.g. IE does not support CSS variables
+to do so, one can rely on the order of precedence in CSS (i.e. browsers read CSS from top-bottom)
+
+MEDIA QUERIES are a technique in CSS3 which introduces a rule when conditions are true
+it is useful for handling differing media devices (e.g. screen size)
+a BREAKPOINT, when met, will then change behaviour 
+e.g. @media (max-width: 768px) { ... }
+
+
