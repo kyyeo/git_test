@@ -120,4 +120,8 @@ it is useful for handling differing media devices (e.g. screen size)
 a BREAKPOINT, when met, will then change behaviour 
 e.g. @media (max-width: 768px) { ... }
 
+3 CSS frameworks for reset: Timothy framework, Blueprint, and Yahoo 
+HTML5 semantic elements clearly describe their meaning to both the developer and browser (e.g. form, table, article, header, footer)
+@import url("reset.css");  useful command to import the reset CSS sheet, which can be saved in the same folder as index.html
+
 
