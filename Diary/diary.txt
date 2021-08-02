@@ -127,3 +127,49 @@ the purpose of a CSS RESET is to remove any unwanted styles that have been appli
 A browser can have default font size and font family, for example. 
 Useful website to use for resets is CSSRESET.com
 
+Mon 02 Aug 2021 10:15:47 PM +08
+rgba() is contains a field for alpha/level of opacity, which ranges from 1 to 0
+box-shadow adds one or more shadows to an element
+<hr> adds a horizontal line across the width of its containing element!
+line-height property adjusts the spacing between lines of text
+pseudo-class is added to selectors, in order to select a specific state of the element
+BLOCK level items start on a new line, while INLINE elements sit within surrounding content (e.g. images or spans).
+Think of the CSS BOX MODEL
+POSITION property overrides the NORMAL flow of a document.
+an ABSOLUTE position removes the element from the normal flow. 
+the OFFSET properties (i.e. top, bottom, left, and right) are then used to shift the element
+one other layout scheme is the FIXED position, which locks the element relative to the browser window
+note that a fixed position element will not move when the user scrolls
+position: absolute | relative | fixed | sticky
+
+FLOAT is a positioning tool, which removes the element from the normal flow, and pushes the element to the LEFT or RIGHT of their containing parent element. 
+float is commonly used in conjunction with width property
+when elements are stacked, the Z INDEX determines how elements are ordered. 
+the z index is an integer, and higher values are higher in the stack.
+the DISPLAY property can be used to set an element as block or inline.
+
+colour theory and the colour wheel
+opposite colours are COMPLEMENTARY; if combined, they cancel and create a grey. but beside each other, create strong visual contrast. 
+e.g. red (#FF0000) and cyan (#00FFFF)
+e.g. green(#00FF00) and magenta (#FF00FF)
+e.g. blue (#0000FF) and yellow (#FFFF00)
+
+RGB are primary colours. 
+green and blue give CYAN, as a secondary colour
+red and blue give MAGENTA, as a secondary colour
+red and green give YELLOW, as a secondary colour
+these secondary colours are complements to the unused primary colour!
+
+tertiary colours combine a primary colour with its secondary colour neighbour. 
+e.g. red and yellow give orange
+ 
+split-complementary color scheme starts with a base colour, then pairs it with 2 other adjacent colours to its complement.
+In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
+
+HSL() stands for Hue, Saturation, and Lightness. 
+hsl is an alternative way to pick a colour
+hue ranges from 0 to 360, and refers to the actual coluoration
+saturation of 100% is fully saturated, and refers to the amount of grey
+lightness of 50% is normal (0% for black, 100% for white)
+the TONE of a colour can be adjusted by playing with Saturation and Lightness
+
