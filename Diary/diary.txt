@@ -173,3 +173,24 @@ saturation of 100% is fully saturated, and refers to the amount of grey
 lightness of 50% is normal (0% for black, 100% for white)
 the TONE of a colour can be adjusted by playing with Saturation and Lightness
 
+Tue 03 Aug 2021 03:28:38 PM +08
+know that a PROPERTY can have different FUNCTIONS
+e.g. in the BACKGROUND property, there is the LINEAR-GRADIENT function
+
+don't fully understand the intuition behind REPEATING-LINEAR-GRADIENT function
+
+utilise the URL() function as part of the BACKGROUND property to add texture with an image
+remember about how elements have STATES, which can be used to add CSS rules (e.g. div:hover)
+skewX and skewY are functions part of TRANSFORM property to skew the element
+
+do NOT understand how to use ::before and ::after pseudo-elements
+
+Wed 04 Aug 2021 08:56:23 PM +08
+@keyframes is a rule to control what happens during an animation. there are a total of 8 animations.
+animation-name names the animation. the name is used in conjunction with @keyframes to control each frame's (i.e. percentage) behaviour.
+animation-duration sets the animation length of time.
+@keyframes uses percentages to determines what happens over the duration
+typically, an ID (or class) is used to set the animation's properties (e.g. name, or duration etc)
+finally, the ID is applied to a HTML element
+
+
