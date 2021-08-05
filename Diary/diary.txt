@@ -194,3 +194,20 @@ typically, an ID (or class) is used to set the animation's properties (e.g. name
 finally, the ID is applied to a HTML element
 
 
+Thu 05 Aug 2021 10:00:01 PM +08
+animation-fill-mode property as 'forwards' prevents the animation from reverting back to its original state
+leverage the POSITION property to move elements around (i.e. top right left right)
+animation-iteration-count controls the number of loops (e.g. infinite)
+animation-timing-function control the speed of the animation (e.g. ease, ease-out, ease-in, linear etc)
+
+cubic-bezier function (p0, p1, p2, and p3). 
+The shape of the curve represents how the animation plays out (x, y) coordinates. 
+The X-axis of this coordinate system is the duration of the animation (think of it as a time scale), and the Y-axis is the change in the animation.
+p0 stands for (0, 0)
+p3 stands for (1, 1)
+animation-timing-function: cubic-bezier(x1, y1, x2, y2)
+Although the cubic Bezier curve is mapped on a 1 by 1 coordinate system, and it can only accept x values from 0 to 1, the y value can be set to numbers larger than one.
+DO NOT UNDERSTAND BEZIER FUNCTION AT ALL
+
+
+
