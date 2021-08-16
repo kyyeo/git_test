@@ -211,3 +211,79 @@ DO NOT UNDERSTAND BEZIER FUNCTION AT ALL
 
 
 
+Mon 16 Aug 2021 04:53:13 PM +08
+Each page should always have one (and only one) h1 element, which is the main subject of your content. 
+The main element is used to wrap (you guessed it) the main content, and there should be only one per page. 
+The main tag also has an embedded landmark feature that assistive technology can use to navigate to the main content quickly.
+article is a sectioning element and is used to wrap independent, self-contained content. 
+section element is also new with HTML5
+An article is for standalone content, and a section is for grouping thematically related content
+When there's no relationship between groups of content, then use a div.
+<div> - groups content 
+<section> - groups related content 
+<article> - groups independent, self-contained content
+
+header shares the embedded landmark feature with main, allowing assistive technologies to quickly navigate to that content.
+header tag is used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
+header is meant for use in the body tag
+
+nav element is another HTML5 item with the embedded landmark feature
+nav is meant to wrap around the main navigation links in your page
+
+footer element has a built-in landmark feature
+primarily used to contain copyright information or links to related documents
+
+audio element gives semantic meaning when it wraps sound or audio stream content
+needs a text alternative
+audio tag supports the CONTROLS attribute (is a boolean attribute)
+
+figure element and the related figcaption wrap a visual representation
+For data visualizations like charts, the caption can be used to briefly note the trends or conclusions for users
+
+label tag wraps the text for a specific form control item, usually the name or label for a choice
+for attribute on a label tag explicitly associates that label with the form control
+fieldset tag surrounds the entire grouping of radio buttons
+a legend tag to provide a description for the grouping
+
+time element along with a datetime attribute to standardise times 
+SUP tags stand for superscript text
+
+an alternative website presentation can be applied for accessibility
+for example, CSS can be used to position the screen reader-only elements off the visual area of the browser window
+important to realise that 0px values REMOVES an element from a document's flow. meaning readers will ignore it
+display: none and visibility: hidden also removes the element, instead of shifting off screen
+
+Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text
+
+Colour cannot be the only way to convey importance. Colourblindness must also be taken into account.
+contrast ratio is calculated using the relative luminance (or lightness) values of the foreground and background colors.
+In practice, the 4.5:1 contrast ratio can be reached by shading (adding black to) the darker color and tinting (adding white to) the lighter color. 
+Think about 'close colours' on the colour wheel and its impact to colour blind folk
+e.g. yellow and green are neighbouring hues, and almost virtually indistinguishable
+
+to only hear the links available on a page.Screen readers do this by reading the link text, or what's between the anchor (a) tags.
+so instead of 'Click Here', wrap the <a> anchor tags around more meaningful, and descriptive text like 'information about drugs'
+
+ACCESSKEY attribute specifies a shortcut key to activate or bring focus to an element.
+HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones like buttons, links, and form controls.
+for example, a user can then click 'c' to activate a link
+
+tabindex attribute has three distinct functions (positive, negative, or zero)
+tabindex relates to an element's keyboard focus
+for example, when tabbing through a website, attention can be drawn to a particular <p> tag
+
+the specific tab order can be set using positive numbers of 1 or higher
+note that doing so overrides the default HTML source order, which begins from the top of the page
+
+Media Queries are new in CSS3 and changes how content is presented with different viewport sizes
+A viewport is a user's visible area of a web page, and is different depending on the device used to access the site.
+Media Queries consist of a media type, and if that media type matches the type of device the document is displayed on, the styles are applied. 
+for example, if the device width is LESS than or equal to 100px. this is achieved with MAX-width
+another example would be if device height is MORE than or equal to 350px, which is achieved with MIN-height
+
+
+
+
+
+
+
