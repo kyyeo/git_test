@@ -282,8 +282,35 @@ for example, if the device width is LESS than or equal to 100px. this is achieve
 another example would be if device height is MORE than or equal to 350px, which is achieved with MIN-height
 
 
+Tue 17 Aug 2021 09:40:43 PM +08
+for images to be responsive, set MAX-WIDTH and HEIGHT to 100% and auto respectively
+for example, in a CSS class, set the above properties and apply the style to HTML elements
 
+to deal with a retina display, half the width and height of an image
 
+for responsive TYPOGRAPHY, use viewport instead of em or px
+VIEWPORT units such as vw, vh, vmin, and vmax are relative to the viewport dimensions of a device.
+don't fully understand how to apply VMIN and VMAX
 
+CSS flexbox positions elements in a flexible way
+for example, display: flex turns an element into a flex container, making it possible to align any children of that element into rows or columns. 
+recall that CSS selectors select HTML elements based on name, id or class
+flex-direction property (default value is row) can set a parent item to row (column), and aligns the children horizontally (vertically)
+
+see image in https://www.w3.org/TR/css-flexbox-1/images/flex-direction-terms.svg for a good reference about flexbox
+
+the direction the flex items are arranged is called the main axis. 
+For a row, this is a horizontal line that cuts through each item. And for a column, the main axis is a vertical line through the items.
+to space the flex items, 
+justify-content value can be center, flex-start, flex-end, space-between,space-around, or space-evenly
+
+For rows, the cross axis is vertical and for columns, the cross axis is horizontal.
+align-items property to align flex items along the cross axis
+align-items value can be flex-start, flex-end, center, stretch, or baseline
+
+flex-wrap property tells CSS to wrap items. This means extra items move into a new row or column.
+The break point of where the wrapping happens depends on the size of the items and the size of the container.
+values of nowrap, wrap, or warp-reverse
+for e.g. if the width is 25%, then there are 4 items before wrapping!
 
 
