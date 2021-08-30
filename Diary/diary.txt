@@ -352,6 +352,7 @@ and for the last two columns;
 the remaining space is divided into three sections, 
 two are allocated for the fourth column, 
 and one for the fifth.
+however, think about how inefficient it would be if the grid was 100x100
 
 grid-column-gap, or grid-row-gap, properties to add gaps between columns/rows
 grid-gap is shorthand. if there is only 1 value, then the gap is consistently applied to both columns and rows
@@ -372,4 +373,23 @@ Every word represents a cell and every pair of quotation marks represent a row.
 
 
 Fri 27 Aug 2021 02:55:07 PM +08
+
+Mon 30 Aug 2021 03:47:49 PM +08
+GRID-AREA property allows one to place items in the custom area through naming
+it works by referencing the GRID-TEMPLATE-AREAS that had been previously named
+grid-area can also be used without a template; by referencing the start/start/end/end lines of the grid (recall 3x3 has lines 1 through 4 for both vertical and horizontal axes)
+
+to improve the efficiency of using grid-template-columns/rows, the REPEAT function will help
+e.g. grid-template-rows: repeat(100, 50px);
+
+MINMAX is a function which limits item sizes, as the grid container changes size
+minmax defines the minimum, before the maximum sizes
+e.g. minmax(50px, 200px);
+minmax function can also be part of a repeat function
+
+The repeat function comes with an option called AUTO-FILL
+this inserts as many rows/columns for the desired container size
+If your container can't fit all your items on one row, it will move them down to a new one.
+e.g. grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+
 
