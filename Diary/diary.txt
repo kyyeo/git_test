@@ -392,4 +392,11 @@ this inserts as many rows/columns for the desired container size
 If your container can't fit all your items on one row, it will move them down to a new one.
 e.g. grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
 
+the AUTO-FIT option works similarly to auto-fill
+auto-FILL inserts empty rows/columns whenever the container's size exceeds the size of all items combined
+auto-FIT collapses those empty rows or columns and stretches your items to fit the size of the container
 
+
+Mon 30 Aug 2021 06:42:43 PM +08
+Fri 10 Sep 2021 11:11:06 AM +08
+create codepen for Tribute and Survey pages!
