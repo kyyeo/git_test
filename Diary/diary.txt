@@ -400,3 +400,31 @@ auto-FIT collapses those empty rows or columns and stretches your items to fit t
 Mon 30 Aug 2021 06:42:43 PM +08
 Fri 10 Sep 2021 11:11:06 AM +08
 create codepen for Tribute and Survey pages!
+
+Mon 13 Sep 2021 10:30:13 PM +08
+TOP's HTML and CSS topics have been updated
+moved away from FreeCodeCamp material
+web servers will, by default look for an index.html page when users land on our websites
+The <head> element is where we put important meta-information about our webpages and stuff required for our webpages to render correctly 
+Charset Meta Element; Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly
+Unicode is the industry standard used for the consistency of character encoding. 
+UTF-8 stands for Unicode Transformation Format 8-bit and has held the title of the most popular HTML character encoding since 2008. By 2019, more than 90 percent of all websites use UTF-8.
+Title Element shows up in Google searches
+There are 6 different levels of headings starting from <h1> to <h6>
+
+The nested elements are the children and the element they are nested within is the parent.
+The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript.
+
+An HTML attribute gives additional information to an HTML element and always goes in the elements opening tag
+An attribute is made up of two parts, a name, and a value.
+
+A typical absolute link will be made up of the following parts: protocol://domain/path.
+Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
+Relative links are directions from the room you are currently in (the bedroom) to another room (the kitchen). 
+Absolute links on the other hand, are directions to an entirely different house.
+
+JPG images are designed for handling large color palettes without exorbitantly increasing file size.
+PNG file type is an excellent fit for icons, technical diagrams, logos, etc.
+GIFs are the go-to option for simple animations
+SVG is a vector-based graphics format, meaning it can scale up or down to any dimension without loss of quality; SVG images a wonderful tool for responsive design.
+
