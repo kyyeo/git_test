@@ -428,3 +428,104 @@ PNG file type is an excellent fit for icons, technical diagrams, logos, etc.
 GIFs are the go-to option for simple animations
 SVG is a vector-based graphics format, meaning it can scale up or down to any dimension without loss of quality; SVG images a wonderful tool for responsive design.
 
+about CSS, remember the selector, then property/value pair!
+think of CSS as a rule, and the selector selects which HTML element to apply the rules
+
+the asterisk * is a universal selector
+a type selector selects by the HTML element type
+
+note that CLASS selectors need not be uniquely applied to an element
+there can also be multiple class selectors for a single element. they are separated by a whitespace.
+class selectors are identified by a period.
+
+ID selectors are identified by a hashtag
+both class and ID selectors are case-sensitive
+note that an element can only have ONE ID selector, unlike class selectors
+an ID selector cannot be repeated on a single page
+
+a useful tip is to reduce repetition across classes
+for example,
+.read, .unread {color: white;}
+.read { /*...*/ }
+.unread { /*...*/ }
+
+learn about CHAINING SELECTORS
+this can be thought of as an AND condition
+for example,
+.subsection.header { color: red;} 
+above would apply to an element whose classes includes subsection and header
+
+learn about DESCENDANT COMBINATORS
+similarly uses an AND condition
+but applied in a hierarchical, parent-child approach
+for example,
+.subsection .header {color: red;}
+above would require the parent element to be of class .subsection, AND the child element to be of class .header
+note that the relationship is regardless of depth; the child could be deeply nested and the descendant combinator will apply
+there can be more levels of nesting (e.g. .one .two. .three .four etc), and the same parent-child principle applies
+
+common CSS properties to grasp:
+(1) color
+(2) background-color
+these properties accept hex, rgb, hsl values
+
+(3) font-family
+use a comma-separated list of values to determine what font an element uses
+(4) font-size
+(5) font-weight
+for the font's boldness with a value from 1 to 1000. 700 is equivalent to setting the weight as 'bold'
+
+(6) img height
+(7) img width
+use 'auto' height and adjust width to avoid losing proportions
+recommended to include both properties, even if no adjustment is needed to the image.
+if left unspecified, and the image takes a while to load, then users may experience drastic shifts in page contents once loaded
+
+CSS "Cascade"
+know that a browser has DEFAULT styles
+a CASCADE determines which rules is applied to the HTML
+here are 3 of many:
+(1) specificity
+A CSS declaration that is more specific will take precedence over ones that are less specific. 
+e.g. INLINE styles have the highest specificity, in comparison to SELECTORS
+The following order applies: Inline > ID > Class > Type > Universal
+think of specificity as a tie-breaker, in event of conflicting styles
+also know that more declarations (e.g. descendant combinators) lead to greater specificity; basically, more rules wins
+
+(2) inheritance
+refers to certain CSS properties such as typography based properties (e.g. color, font-size, font-family etc)
+therefore, even if the parent element applies an ID selector, and the child element applies a CLASS selector, the class selector's property/value pair will take precedence
+
+(3) rule order
+this is the final tie-breaker, after all other factors have been considered
+this rule states that whichever rule is LAST takes precedence
+for example, .warning will take precedence
+.alert {
+  color: red;
+}
+.warning {
+  color: yellow;
+}
+
+
+*Methods to add CSS to HTML:
+(1) External CSS; use <link> for a separate file within <head> elements with 'rel' and 'href' attributes
+external CSS is neater with separate files, and editing CSS occurs in one single origin
+
+(2) Internal CSS; use <style> tags within <head> 
+useful for applying styles to a single page of a website
+
+(3) Inline CSS; use 'style' as an attribute within the HTML element 
+least recommended approach as it bloats the HTML file
+applying the same style to multiple elements results in copy-paste code
+finally, inline CSS has the highest specificity, and might cause unexpected results
+
+
+*know that "Web Safe Fonts" are a font list which are generally installed on every computer
+
+
+
+
+
+
+
