@@ -523,6 +523,7 @@ finally, inline CSS has the highest specificity, and might cause unexpected resu
 
 *know that "Web Safe Fonts" are a font list which are generally installed on every computer
 
+*CSS exercises folder was cloned from TheOdinProject, and subsequently unlinked by using "git remote rm origin" within the css-exercises folder
 
 
 
