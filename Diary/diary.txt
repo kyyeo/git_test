@@ -526,7 +526,9 @@ finally, inline CSS has the highest specificity, and might cause unexpected resu
 *CSS exercises folder was cloned from TheOdinProject, and subsequently unlinked by using "git remote rm origin" within the css-exercises folder
 
 
+Wed 15 Sep 2021 01:22:07 PM +08
+finished TOP's 6 foundation CSS exercises
+interesting practice in specificity, inheritance, and rule order
 
-
-
-
+question: what is the difference between text-align property vs align-content property?
+answer: align-content is for flex-wrap property. text-align is for the horizontal alignment of text in an element.
