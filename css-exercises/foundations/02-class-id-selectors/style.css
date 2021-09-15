@@ -1,0 +1,20 @@
+.odd {
+    background-color: pink;
+    font-family: 'Verdana', 'sans-serif';
+}
+
+#two {
+    color:blue;
+    font-size: 36px;
+}
+
+.oddthree {
+    font-size: 24px;
+}
+
+#four{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+

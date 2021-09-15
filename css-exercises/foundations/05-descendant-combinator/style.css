@@ -1,0 +1,12 @@
+div .text{
+    background-color: yellow;
+    color: red;
+    /* align-content: center; */
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 
+Q: what is the difference between text-align property vs align-content property? 
+A: align-content is for flex-wrap property. text-align is for the horizontal alignment of text in an element.
+*/
