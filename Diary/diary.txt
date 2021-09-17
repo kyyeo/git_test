@@ -532,3 +532,40 @@ interesting practice in specificity, inheritance, and rule order
 
 question: what is the difference between text-align property vs align-content property?
 answer: align-content is for flex-wrap property. text-align is for the horizontal alignment of text in an element.
+
+Fri 17 Sep 2021 03:58:06 PM +08
+every element has a defult DISPLAY property value (e.g. inline, block)
+e.g. <span> is inline by default
+there are display values like inline, block, inline-flex, flex
+
+there is a standard and alternate BOX model
+in the STANDARD box model, length and width defines the content's attributes
+and the sum of length/width, padding and border gives the dimensions
+this is the default setting
+
+the alternative box model uses the content's dimensions directly, and subtracts the border and padding
+to use the alternative box model, the "box-sizing" property should be set to a "border-box" value
+it is common to set this property in the <html> element, with all other elements set to inherit the value
+
+a key concept: MARGIN COLLAPSING
+2 elements with positive margins will have their margins combine to become one margin, with the size equal to the largest individual margin
+if one margin is negative, then its value is subtracted from the total
+if both are negative, then margins collapse and the largest value is used
+
+BORDERs have style, width and color to manipulate
+
+PADDING must be positive
+
+with MARGINs, "auto" value is only useful for HORIZONTAL centering
+"margin: 0 auto;" will set top and bottom to 0, while left and right margins are 'auto'.
+only VERTICAL margins collapse
+
+
+
+
+
+
+
+
+
+
