@@ -1,0 +1,15 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  p {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+  
+  p:first-child {
+    margin-bottom: -1rem;
+  }
+  

@@ -1,0 +1,65 @@
+*{
+    padding 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one{
+    background-color: #eb5757;
+    /* for the CONTENT itself*/
+    height: 100px;
+    width: 100px;
+    /* then padding, border, and finally margin */
+    padding: 10px;
+    border: 30px solid #9851e0;
+    /* margin goes around the actual element */
+    margin: 70px;
+
+    /* 
+    note that in BOX model, the dimensions as highlighted in Chrome includes
+    height + top padding + bottom padding + top border + bottom border
+    100 + 10 + 10 + 30 + 30 = 180
+    
+    similarly for width!
+
+    margin isn't part of the height/width of an element by CSS, in default
+    in order to include the border as part of the element, change the 
+    box-sizing property to "border-box"
+    */
+
+    display: block;
+}
+
+.box-two{
+    background-color: #2d9cdb;
+    border: 0 solid #27ae60;
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        border: 30px solid #9851e0;
+        /* 
+        visually, the margin between boxes 1 and 2 isn't 120px 
+        it remains as 60px!
+        
+        because in the box model, margin collapses between 2 elements
+        whichever margin is the higher value will be used
+        e.g. 70px instead of 60px
+        */
+        margin: 60px;
+        box-sizing: border-box;
+        /* 
+        with border-box, notice the element size is now down to 20x20
+        height - top/bottom padding/border
+        100 - 10 - 10 - 30 - 30 = 20
+
+        similarly for width
+        therefore, height/width now accounts for border and padding values
+        
+        typically, "border-box" is applied to the universal selector
+        this makes styling easier with lesser math required, 
+        as every element is the width/height specified
+        */
+
+        display: block;
+    }
+}
