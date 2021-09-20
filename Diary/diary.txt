@@ -560,8 +560,18 @@ with MARGINs, "auto" value is only useful for HORIZONTAL centering
 "margin: 0 auto;" will set top and bottom to 0, while left and right margins are 'auto'.
 only VERTICAL margins collapse
 
+interesting to know that a block level element has a top and bottom margin, whereas an inline element does not
 
+know that different HTML elements are default to block or inline 
+e.g. <h1> to <h6>, and <div> are block, while <span>, and button are inline
+see w3schools for more elements under 'Block and Inline Elements'
 
+did you know?
+there's a difference between "display: none;" and "visibility: hidden;"
+the former completely removes the element, while the latter hides the element from view, but it still renders onto the page
+
+did you know? 
+by setting top/bottom to 0, and right/left margins to 'auto', the element will have its margins proportionately sized on either sides
 
 
 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn about horizontal menus</title>
+
+
+        <!-- 
+        credit: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+     -->
+    <style>
+        p, 
+        ul {
+        border: 2px solid rebeccapurple;
+        padding: .5em;
+        }
+
+        .block,
+        li {
+        border: 2px solid blue;
+        padding: .5em;
+        }
+/* between ul and li, switch between flex and inline to observe different approaches */
+        ul {
+        display: flex;
+        list-style: none;
+        }
+
+        /* li{
+            display: inline;
+        } */
+
+        .block {
+        display: block;
+        }      
+    </style>
+</head>
+<body>
+    <p>I am a paragraph. A short one.</p>
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    <p>I am another paragraph. Some of the <span class="block">words</span> have been wrapped in a <span>span element</span>.</p>
+
+
+</body>
+</html>
