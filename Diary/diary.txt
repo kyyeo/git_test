@@ -574,6 +574,29 @@ did you know?
 by setting top/bottom to 0, and right/left margins to 'auto', the element will have its margins proportionately sized on either sides
 
 
+22 Sep 2021 07:08:15 PM +08
+flex is shorthand for FLEX-GROW, FLEX-SHRINK, and FLEX-BASIS, which have default values of 0, 1, and 0% respectively.
+
+flew-grow is the growth factor
+if flex: 1, then every div inside the container grows the same amount
+this means every div is the same exact size
+if one of the divs is set as flex: 2, then it would grow 2x the size
+
+flex-SHRINK is the shrink factor
+applied only if container is smaller than total flex items
+default shrink value is 1, which means all items shrink evenly
+to prevent an item from shrinking, set the property value to 0
+a larger value means a higher relative shrink rate!
+e.g. container width is 270px, and 3 flex items of 100px width each. if flex-shrink 1, then all to shrink equally
+
+it's interesting that growth/shrink of values 1 mean that the flex item will grow or shrink to fit the container!
+however, if one of the flex-items has a shrink factor of 0, then it will not shrink when the container shrinks, especially if the flex item has a defined width, for example.
+
+flex-BASIS defaults to 0%, and is the baseline size for growth/shrinkage
+if basis is 0%, then the flex item would ignore the item's width
+a value of 'auto' means to check for a width declaration
+if flex shorthand is used, then flex-basis defaults to 'auto' instead of 0%
+
 
 
 
