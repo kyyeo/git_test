@@ -615,3 +615,15 @@ while 'column' sets the main axis as vertical
 
 
 
+Sat 25 Sep 2021 10:56:32 PM +08
+realised that flex-basis = 0% means that flex-grow and flex-shrink begins calculations from '0'
+note that flex=1; in shorthand means that flex-shrink=0 and flex-shrink=0%;
+
+further note that empty divs are 0 height by default
+thus, even if a div has a defined height, flex=1; would mean that the div is "squashed"
+question: why does flex-grow:1 fix the shorthand issue?!
+
+
+
+
+
