@@ -599,6 +599,19 @@ if flex shorthand is used, then flex-basis defaults to 'auto' instead of 0%
 
 
 
+Fri 24 Sep 2021 02:06:20 PM +08
+https://cssreference.io/property/margin-left/
+margin-left: auto;
+above code explicitly allocates MARGIN to the LEFT of the element
+assuming the right margin has no value, then the element would naturally align right
+
+flex applies a default direction of row/horizontal
+it can be changed through 
+flex-direction: column;
+
+flex has 2 axes: main and cross
+if flex-direction is set as 'row', then the main axis is horizontal
+while 'column' sets the main axis as vertical
 
 
 
