@@ -623,7 +623,13 @@ further note that empty divs are 0 height by default
 thus, even if a div has a defined height, flex=1; would mean that the div is "squashed"
 question: why does flex-grow:1 fix the shorthand issue?!
 
+in flex,
+justify-content for alignment along the MAIN axis
+align-items for alignment along the CROSS axis
+remember that flex-direction: row sets the main axis horizontally (i.e. default)
+if flex-direction: column, then the main axis is vertical
 
+GAP property adds space between flex items
 
 
 
