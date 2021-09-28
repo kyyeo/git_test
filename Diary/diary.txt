@@ -633,3 +633,48 @@ GAP property adds space between flex items
 
 
 
+Tue 28 Sep 2021 02:38:57 PM +08
+note that there is a difference between the flex CONTAINER and the flex items themselves
+align-items and justify-content properties are applied to the CONTAINER!
+align-items along the CROSS axis
+justify-contents along the MAIN axis
+
+a flex item's MAIN SIZE follows from the main axis, and can be the width/height
+similary applied to the CROSS SIZE
+
+phrase to learn about flex: Flexbox layout (aka Flexible Box) is a single direction layout concept
+
+note that there is the "safe" and "unsafe" keywords to prevent content from rendering off-screen (i.e. "data loss")
+
+
+abstracted from CSS tricks website
+to set for PARENT flex container,
+display: flex;
+flex-flow: ;
+justify-content: ;
+align-items: ;
+
+optionally,
+align-content: ;
+gap, row-gap, column-gap;
+
+
+to set for CHILD flex items,
+order
+flex-grow, flex-shrink, flex-basis;
+align-self
+
+
+on a side note, there is something called a "Child Selector" (i.e. >) as part of CSS combinators
+the child selector is meant to select elements which are a child to a specified element
+for reference, think about the descendant selector, which is defined by a space
+e.g. 
+.wrapper > * { }
+code reads to mean that all elements that are child to .wrapper class elements
+
+
+
+
+
+
+
