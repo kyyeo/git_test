@@ -68,3 +68,8 @@ ul {
   padding: 0;
   gap: 16px
 }
+
+
+* {
+  border: 0.1px dotted red;
+}
