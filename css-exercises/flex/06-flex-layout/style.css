@@ -42,6 +42,9 @@ button {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 /* .left-links, .right-links {
