@@ -676,5 +676,6 @@ code reads to mean that all elements that are child to .wrapper class elements
 
 Fri 01 Oct 2021 03:57:37 PM +08
 made the holy grail layout as part of CSS exercises; not bad.
+now working on landingPage 
 
 
