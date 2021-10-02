@@ -679,3 +679,67 @@ made the holy grail layout as part of CSS exercises; not bad.
 now working on landingPage 
 
 
+Sun 03 Oct 2021 03:59:34 AM +08
+the cool part about increment and decrement operators is that they can occur before or after the variable!
+the sequence affects how a variable's value is reported. 
+
+for understanding, an OPERAND can refer to the variable
+while an OPERATOR refers to the operation such as +-*/
+or even +=, which is to add a value to itself
+
+== tests for equality in values, but ignores data types
+=== is stricter and tests for both value and data type
+it is recommended to use the strict equality
+e.g. == is unable to test whether 2 numbers, which have been declared as objects, are equal or not
+
+NaN stands for 'Not a Number'
+apart from the grief described online, NaN is a RESERVED word
+it indicates a number is NOT a legal number
+e.g. dividing a string by a number results in NaN
+isNaN() is a JS function to test if a value is NOT a number
+NaN is typeof number
+NaN can be concatenated with a number into a string value!!!
+
+the Canvas API sounds like a handy tool for drawing
+might want to look deeper
+
+UNARY is when an operator operates on a single OPERAND (e.g. -x)
+BINARY is when an operator is applied to 2 operands (e.g. y - x)
+
+note that the PLUS operator concatenates!
+if it starts with a string, then all the following digits are concatenated instead of added
+
+a unique fact about the unary + operator
+when applied to a non-number, the unary plus converts it to a number (e.g. +a)
+which is similar to the Number() function
+realise that values from HTML form inputs are usually strings
+
+ALL operators in JavaScript (JS) return a value!
+
+fun fact: ++/-- can be used among other operators!!!
+note that in this example, ++ has higher precedence
+e.g. 
+let counter=1;
+alert(2 * ++counter); //outputs 4
+
+however,
+let counter=1;
+alert(2 * counter++); //outputs 2
+//not because of precedence, but rather, because the older value of counter was returned
+
+funky operator is the comma ,
+let a = (1+2, 3+4);
+alert(a); //outputs 7 because 1+2 is discarded, and 3+4 is evaluated due to the comma
+
+in terms of precedence, above declaration 
+begins with parentheses
+then 1+2
+then 3+4
+then a=7
+
+most common application of the COMMA operator is in a FOR loop!
+
+
+
+
+
