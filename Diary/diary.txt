@@ -739,6 +739,84 @@ then a=7
 
 most common application of the COMMA operator is in a FOR loop!
 
+in JavaScript, mathematical operations are "safe", meaning scripts will not stop with a fatal error. 
+there are 8 data types in JS:
+(1) Number
+(2) BigInt
+(3) String
+(4) Boolean
+(5) Null
+(6) Undefined
+(7) Objects
+(8) Symbols
+
+'Number' cannot go beyond 2^(53) - 1
+
+About Strings:
+single or double quotes define SIMPLE quotes, and are indistinguishable from each other
+using a backtick `, however, is an extended functionality quote
+backticks helps EMBED variables and expressions INTO a string by wrapping in ${...}
+e.g. 
+let name = 'John';
+alert( 'Hello, ${name}!' ); // Hell, John!
+
+null, in JS, just represents nothing
+it is not a null pointer, nor a reference to a non-existing object
+usually used to assign an empty of unknown value to a variable
+
+if a variable is declared, but unassigned, then it is 'UNDEFINED'
+it is technically possible to assign 'undefined' to a variable, thought NOT recommended
+undefined is typically reserved as the initial default value
+
+OBJECT type is special because unlike the others, which are primitive, it can store collections of data
+
+SYMBOL creates unique identifiers for objects
+
+fun fact: typeof(null) returns 'object', which is a known bug, but is kept for compatibility
+
+know that STRINGs can be compared according to lexicographical order
+note also that case matters. i.e. a > A, because lowercase has a greater index in the internal encoding table (Unicode) that JS uses
+e.g.
+"apple" > "pineapple" -> false!
+
+
+interestingly, if a non-strick EQUALITY check is applied to NULL and UNDEFINED data types, 
+then this "sweet couple" will equal
+
+for math and other COMPARISONs,
+null converts to 0, while undefined converts to NaN
+
+logical operators include || && ! and ??
+operands are evaulated from left to right
+
+|| OR operator is interesting because it returns the first 'truthy' variable
+e.g. 
+let firstName = "";
+let lastName = "";
+let nickName = "SuperCoder";
+alert(firstName || lastName || nickName || "Anon")' // SuperCoder
+
+one interesting application is to execute commands 
+e.g.
+false || alert("hello world"); 
+in this manner, there is a check, and then alert.
+
+&& AND operator returns the first falsy value
+e.g. 
+alert (1 && 0); // 0
+the key here is realising what VALUE is being returned
+
+in terms of precedence, && ranks higher than ||
+think similarly to PEMDAS operations in Mathematics
+the ! not operator is highest in precedence
+
+know that there is a double not !!, sometimes used for converting a value to boolean type
+
+realise that Boolean(undefined) returns 'false' value
+likewise with Boolean(null)
+
+
+
 
 
 
