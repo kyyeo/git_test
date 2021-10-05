@@ -816,8 +816,55 @@ realise that Boolean(undefined) returns 'false' value
 likewise with Boolean(null)
 
 
+Tue 05 Oct 2021 01:00:34 PM +08
+thing about booleans
+any value that is NOT false, undefined, null, 0, NaN, or an empty string ('') returns true when tested as a conditional statement
 
+in JS, when performing conditional statements like if(){}else{}
+remember to state the variable "repeatedly" || OR operator 
+e.g.
+if (x === 5 || x === 7)
+otherwise, if (x === 5 || 7) will always evaluate to true, as '7' is always true
 
+a TERNARY operator simplifies if-then-else 
+its syntax mildly differs
+e.g.
+(condition)? run if true : else run if false
 
+in a SWITCH statement, the reason for including 'break' is to stop the code!
+if break is omitted, and the first case is true, then the rest of the code continues running, which is a waste of resources
+this is particularly useful when trying to lump cases together!
+e.g.
+switch(month){
+	case 0:
+	case 1:
+	case 2:
+	//code
+	break;
+
+	case 3:
+	case 4:
+	//code
+
+	default:
+	//code
+}
+
+recognise that it's possible to use switch RANGES
+e.g.
+switch(true){
+	case grade >= 90:
+	//code
+	break;
+	
+	case grade >=80:
+	//code
+	break;
+
+	...
+
+	default:
+	//code
+}
 
 
