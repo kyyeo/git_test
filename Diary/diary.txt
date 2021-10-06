@@ -867,4 +867,17 @@ switch(true){
 	//code
 }
 
+in JavaScript, arrays are a special type of object
+a number index is used to access an array's element
+but remember that an object can use NAMEs to access its members
+e.g. 
+const person ={firstName:"John", lastName:"Doe", age:46};
+then
+person.firstName would return "John"
+
+REPL stands for read-evaulate-print loop
+
+
+
+
 
