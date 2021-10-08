@@ -3,7 +3,7 @@
 Fri 08 Oct 2021 12:09:47 PM +08
 ## upgraded to markdown, instead of plain text
 * ~~strikethrough~~
-* [Link to GitHub markdown syntax](https://guides.github.com/features/     mastering-markdown/#syntax)
+* [Link to GitHub markdown syntax](https://guides.github.com/features/mastering-markdown/#syntax)
 * blockquote
 > testing a blockquote line 1
 > blockquote line 2
@@ -32,7 +32,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * variables defined within a function are said to be _inside their own separate scope_
 ** this means they are unreachable from code outside the function
 * there is a top level known as **Global Scope**, where values are accesssible from everywhere
-[x] interestingly, if there are conflicting functions (e.g. similarly named) across multiple JavaScript source files, then the first function declaration is used, while the second is ignored
+- [x] interestingly, if there are conflicting functions (e.g. similarly named) across multiple JavaScript source files, then the first function declaration is used, while the second is ignored
 * 
 
 
