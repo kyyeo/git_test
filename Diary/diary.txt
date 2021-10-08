@@ -877,7 +877,10 @@ person.firstName would return "John"
 
 REPL stands for read-evaulate-print loop
 
+there is a piece of code: debugger
+may use it to set as a breakpoint!
 
+***--- [Future updates to diary.md] ---***
 
 
 
