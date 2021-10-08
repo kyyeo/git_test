@@ -22,8 +22,18 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * _parameters_ describe the items between parentheses; it's a placeholder!
 * _function arguments_ are passed to the function; the value to be used by the function!
 * functions that are part of objects are commonly referred to as _methods_
-* there is such a thing as an _anonymous_ function, which does not have a name
+* there is such a thing as an _anonymous_ function, which does not have a name (aka function expression, which is not hoisted). 
+** best used with an event handler.
 > e.g. 
 > const myGreeting = function() { alert('hello') };
+* parameters are sometimes called arguments, properties, or even attributes
+
+### Function Scope
+* variables defined within a function are said to be _inside their own separate scope_
+** this means they are unreachable from code outside the function
+* there is a top level known as **Global Scope**, where values are accesssible from everywhere
+[x] interestingly, if there are conflicting functions (e.g. similarly named) across multiple JavaScript source files, then the first function declaration is used, while the second is ignored
+* 
+
 
 
