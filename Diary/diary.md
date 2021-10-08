@@ -33,6 +33,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ** this means they are unreachable from code outside the function
 * there is a top level known as **Global Scope**, where values are accesssible from everywhere
 - [x] interestingly, if there are conflicting functions (e.g. similarly named) across multiple JavaScript source files, then the first function declaration is used, while the second is ignored
+* functions can be called from **anywhere**, even from within another function. this behaviour differs from variables.
 * 
 
 
