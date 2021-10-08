@@ -1,0 +1,200 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    min-height: 100vh
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 16px 10em;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 3 1 auto;
+    font-weight: 900;
+}
+.link{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.top{
+    background-color: #1F2937;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10em;
+    gap: 16px;
+}
+.introduction{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 270px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    margin: 54px 0px;
+}
+.main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    margin: 0;
+    padding-bottom: 8px;
+}
+.secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding-bottom: 8px;
+}
+#whitebutton{
+    background-color: #3882F6;
+    color: #fff;
+    width: 150px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+#banner{
+    width: 960px;
+    height: 270px;
+    text-align: center;
+    line-height: 270px;
+    color: white;
+    background-color: #6D747E;
+}
+
+.content{
+    background-color: #fff;
+    flex: 1 1 auto;
+}
+.information{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 16px 10em;
+    gap: 32px;
+}
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.card img{
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.card p {
+    margin-top: 8px;
+    padding: 0;
+    width: 150px;
+    font-size: 18px;
+    color: grey;
+}
+
+
+.quote{
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 72px 20em;
+}
+blockquote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+.quote p{
+    margin: 8px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.callToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 5em 10em;
+}
+.bluebox{
+    background-color: #3882f6;
+    padding: 54px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between;
+    gap: 32px;
+}
+.bluebox div{
+    display:flex;
+    flex-flow: column nowrap;
+
+}
+
+.bluebox h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.bluebox p{
+    margin: 0;
+    padding: 0;
+    color: rgb(236, 236, 236);
+    font-size: 12px;
+    font-weight: 400;
+}
+#bluebutton{
+    border: 3px solid white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 4px 32px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+/* * {border: 0.1px dotted red;} */
