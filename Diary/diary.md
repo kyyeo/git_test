@@ -40,8 +40,9 @@ Fri 08 Oct 2021 12:09:47 PM +08
 > function showMessage(from, text="no text given"){...}
 
 * || operator is useful in checking if a valid argument was passed to the function `text = text || 'empty'; //if undefined or falsy, then set as 'empty'`
+
 ** another way is with the _nullish operator_ ?? which checks if an expression is defined (i.e. neither null nor undefined) `a ?? b; //if a is defined, then a. else, if a is undefined, then b.`
-* `return` can also be without a value!
+* `return` can also be used without a value!
 > e.g.
 > function showMovie(age) {
 > 	if (!checkAge(age)) {
@@ -69,8 +70,8 @@ Fri 08 Oct 2021 12:09:47 PM +08
 
 * [For more about Arrow Functions](https://javascript.info/arrow-functions)
 
-### Function expressions
-* unique thing about functions in JavaScript particularly: without the parentheses following the function name, the function does not execute
+### Function expressions vs function declaration
+* peculiar thing about JavaScript functions: without parentheses following the function name, the function does not execute
 > e.g.
 > 
 > alert (sayHi); //shows the function code instead
@@ -80,4 +81,38 @@ Fri 08 Oct 2021 12:09:47 PM +08
 > 
 > let func = SayHi;
 
-* 
+*2 ways to create functions:
+** function **declaration**:
+> function sayHi() { alert ("hello"); }
+
+** function **expression**:
+> let sayHi = function() { alert("hello"); };
+
+** notice that one difference is the semi-colon at the end
+* know that functions can be passed as a parameter to a function
+** it's how to refer to that function argumen within the expression/declaration which is key
+> e.g.
+> 
+> function ask(question, yes, no) {
+> 
+> if (confirm(question)) yes()
+> 
+> else no();
+> 
+> }
+> 
+> ask("Do you agree?", showOk, showCancel);
+
+* in the above example, showOk and showCancel are examples of **callback functions**
+** [For more about JS callback functions](https://javascript.info/function-expressions)
+
+* some subtle notes:
+** function declaration can be called **earlier** than it is defined
+** function expression is created when code execution reaches it, and is only usable from that moment (e.g. let welcome;)
+** a function expression can be assigned to a variable ( e.g. welcome = function(){...} )
+** a function declaration is visible within the block scope (i.e. {...}) where it resides
+** however, if a function expression is assigned to a variable within the block scope, then it can be called even outside the block scope! 
+
+
+
+
