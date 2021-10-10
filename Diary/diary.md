@@ -121,4 +121,10 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * the **stack trace** tracks an error by logging to the browser console
 * **stack overflow** occurs when the maximum call stack size is exceeded
 
-
+# 3 step problem solving process:
+1. Understand the problem
+2. Plan how to solve the problem
+* Interface?
+* Inputs?
+* Outputs?
+3. 
