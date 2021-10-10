@@ -39,7 +39,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * parameters can be set with default values, as part of the function declaration
 > function showMessage(from, text="no text given"){...}
 
-** **cool** || operator is useful in checking if a valid argument was passed to the function `text = text || 'empty'; //if undefined or falsy, then set as 'empty'`
+* || operator is useful in checking if a valid argument was passed to the function `text = text || 'empty'; //if undefined or falsy, then set as 'empty'`
 ** another way is with the _nullish operator_ ?? which checks if an expression is defined (i.e. neither null nor undefined) `a ?? b; //if a is defined, then a. else, if a is undefined, then b.`
 * `return` can also be without a value!
 > e.g.
@@ -60,10 +60,24 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ### Arrow functions
 * arrow functions simplify the syntax for creating functions
 > let func = (arg1, arg2, ..., argN) => expression
+> 
 > vs
+> 
 > let func = function(arg1, arg2, ..., argN) {
 > return expression;
 > }
 
 * [For more about Arrow Functions](https://javascript.info/arrow-functions)
 
+### Function expressions
+* unique thing about functions in JavaScript particularly: without the parentheses following the function name, the function does not execute
+> e.g.
+> 
+> alert (sayHi); //shows the function code instead
+
+* functions can be copied to another variable
+> e.g.
+> 
+> let func = SayHi;
+
+* 
