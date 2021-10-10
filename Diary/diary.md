@@ -113,6 +113,12 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ** a function declaration is visible within the block scope (i.e. {...}) where it resides
 ** however, if a function expression is assigned to a variable within the block scope, then it can be called even outside the block scope! 
 
-
+### Call stacks
+* [About Call Stacks](https://javascript.plainenglish.io/node-call-stack-explained-fd9df1c49d2e?gi=ed58e97ab7c6) and more technical JS matters; good read!
+* LIFO (Last In, First Out) process
+* when stepping into a function, it is added to the stack
+* when returned, the function is popped off the top of the stack
+* the **stack trace** tracks an error by logging to the browser console
+* **stack overflow** occurs when the maximum call stack size is exceeded
 
 
