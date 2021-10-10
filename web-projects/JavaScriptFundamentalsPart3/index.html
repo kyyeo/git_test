@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Fundamentals Part 3</title>
+</head>
+<body>
+  <script>
+
+    function add7(num){
+      console.log(num + 7);
+    }
+
+    let multiply = function(num1, num2) {
+      console.log(num1*num2);
+    };
+
+
+    // what i learnt:
+    // 1. how typeof is used
+    // 2. changing a single character still requires slice()
+    // 3. console.log helps in debugging!
+    function capitalize(text){
+       if(typeof text === 'string'){
+        text = text.toLowerCase();
+        text = text.charAt(0).toUpperCase() + text.slice(1);
+        console.log("text: " + text);
+        return text;
+      }else{
+        console.log("text is not a string");
+        return text;
+      }
+    }
+
+    // what i learnt:
+    // 1. need charAt() method to return a specific character in a string
+    // 2. strings start from index 0
+    function lastLetter(text) {
+      return text.charAt(text.length-1);
+    }
+
+
+  </script>
+</body>
+</html>
