@@ -127,4 +127,10 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * Interface?
 * Inputs?
 * Outputs?
-3. 
+3. Divide and conquer
+
+
+# Arrays
+* accessible through names, as arrays are objects starting with index[0]
+* arrays have a forEach() function that can take a function to be performed on the array's elements
+* 
