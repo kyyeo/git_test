@@ -131,6 +131,24 @@ Fri 08 Oct 2021 12:09:47 PM +08
 
 
 # Arrays
-* accessible through names, as arrays are objects starting with index[0]
 * arrays have a forEach() function that can take a function to be performed on the array's elements
-* 
+* new elements can be added either with push() or array[length]
+* accessible through **numbers only**, as arrays start with index[0] (i.e. **numbered indexes**)
+> e.g.
+> 
+> const person = ["John", "Doe", 46];
+
+* an **object**'s member, on the other hand, can be accessed using its name (i.e. **named indexes**)
+> e.g.
+> 
+> const person = {firstName:"John", lastName:"Doe", age:46};
+
+* if named indexes are used on arrays, JS redefines it to an object, which will produce incorrect results when using some array methods/properties
+
+* subtle difference between `const points=[40]` vs `const points = new Array(40);`
+** former creates one array with one element, while the latter creates an array with 40 undefined elements
+
+* identifying an array (instead of using `typeof`):
+1. `Array.isArray(fruits)` method
+2. `instanceof` operator (e.g. `fruits instanceof Array;`)
+
