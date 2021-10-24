@@ -152,3 +152,35 @@ Fri 08 Oct 2021 12:09:47 PM +08
 1. `Array.isArray(fruits)` method
 2. `instanceof` operator (e.g. `fruits instanceof Array;`)
 
+# JavaScript Exercises
+
+## 01_helloWorld
+* `module.exports = <javascript function name>` is how a function is exported, so that `require()` imports it into the spec file
+
+## 02_repeatString
+* `if` functions to check arguments
+
+## 03_reverseString
+* `for` loop, but in descending order!
+
+## 04_removeFromArray
+* JavaScript isn't a _statically typed language_. Thus, arguments to a function declaration cannot 
+* `splice` method is able to both ADD to or REMOVE array elements
+* `arguments` to a function are indexed from zero
+* it seems that the number of `arguments` cannot be restricted
+
+## 05_sumAll
+* checking an argument as a string
+
+## 06_leapYears
+* remember that 0 is false and an integer is true
+
+## 07_tempConversion
+* interesting that JavaScript has no Math method to round to particular decimal places
+
+## 08_calculator
+* `arguments[]` cannot be used in the `return` statement
+* arrays are of type `object`
+* use `forEach` to loop through each element in an array. possible to apply a function on each item too.
+
+## 09_palindromes
