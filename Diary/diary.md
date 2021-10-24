@@ -183,4 +183,22 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * arrays are of type `object`
 * use `forEach` to loop through each element in an array. possible to apply a function on each item too.
 
-## 09_palindromes
+## 09_palindromes & 10_fibonacci
+* dealing with edge cases
+
+# DOM manipulation
+* kebab case is a variable naming convention where spaces between words are replaced with a dash
+* kebab case hinders DOM manipulation, as camelcase or bracket notation needs to be used
+* `defer` keyword is a way for `<script>` tag to delay loading until after the HTML is parsed, especially if `<script>` is within the `<head>` tag
+* [JavaScript loading strategies](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#script_loading_strategies)
+* [DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+* remember that a **nodelist** is similar to an array (but different)
+
+## Callback functions
+* `function(e)` is a callback from addEventListener
+* `e` is an object referencing the event itself
+* remember that functions can be assigned to variables
+* note that _callbacks_ are just functions passed into other functions as arguments
+* 
+
+
