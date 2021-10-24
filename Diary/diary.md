@@ -199,6 +199,6 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * `e` is an object referencing the event itself
 * remember that functions can be assigned to variables
 * note that _callbacks_ are just functions passed into other functions as arguments
-* 
+* [Learn more about Callbacks](https://briggs.dev/blog/understanding-callbacks)
 
 
