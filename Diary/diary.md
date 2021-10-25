@@ -193,6 +193,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * [JavaScript loading strategies](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#script_loading_strategies)
 * [DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 * remember that a **nodelist** is similar to an array (but different)
+* [DOM enlightenment](http://domenlightenment.com/#6.2)
 
 ## Callback functions
 * `function(e)` is a callback from addEventListener
