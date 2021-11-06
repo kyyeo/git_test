@@ -167,7 +167,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * JavaScript isn't a _statically typed language_. Thus, arguments to a function declaration cannot 
 * `splice` method is able to both ADD to or REMOVE array elements
 * `arguments` to a function are indexed from zero
-* it seems that the number of `arguments` cannot be restricted
+* it seems that the number of `arguments` cannot be restricted/home/ky/JavaScript30/12 - Key Sequence Detection
 
 ## 05_sumAll
 * checking an argument as a string
@@ -194,6 +194,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * [DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 * remember that a **nodelist** is similar to an array (but different)
 * [DOM enlightenment](http://domenlightenment.com/#6.2)
+* [Keycode.info](https://Keycode.info)
 
 ## Callback functions
 * `function(e)` is a callback from addEventListener
@@ -201,5 +202,3 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * remember that functions can be assigned to variables
 * note that _callbacks_ are just functions passed into other functions as arguments
 * [Learn more about Callbacks](https://briggs.dev/blog/understanding-callbacks)
-
-
