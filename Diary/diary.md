@@ -253,5 +253,3 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ## Ordering
 * Properties named by **integers** (i.e. 1, 2, 3 etc) are sorted (aka "integer properties)
 * Other properties are sorted by creation order
-
->>>>>>> acac08d94d68e7ec9607962d9139091f0866c9b1
