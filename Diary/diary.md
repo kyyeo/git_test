@@ -202,3 +202,56 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * remember that functions can be assigned to variables
 * note that _callbacks_ are just functions passed into other functions as arguments
 * [Learn more about Callbacks](https://briggs.dev/blog/understanding-callbacks)
+<<<<<<< HEAD
+=======
+
+# Objects
+* [javascript.info](https://javascript.info/object)
+* [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+* object constructor (similar to function declarations) vs **object literal** (think figure brackets {}; usually preferred) syntax
+* There are 8 data types in JavaScript. 7 of which are primitives, as they only hold 1 single piece of data. 
+* Objects, as a data type, has a list of **properties**, that are `key: value` pairs.
+
+## Object operators
+* access an object's property value through dot `.`notation. However, dot notation does not work with expressions (e.g. `let key="likes birds"; object.key //undefined`)
+* property keys can be named in a multiword fashion (e.g. "likes birds": true). However, the declaration must be in quotes. These leads to issues when retrieving values through dot notation, as `object.likes birds` is unrecognised. Best practice is to apply kebab case (e.g. likes_birds). One solution is to use square bracket notation `object["likes birds"]`, which can work with expressions (e.g. `let key="likes birds"; object[key]`)
+* `delete` operator to remove a property (e.g. `delete object[key]`)
+
+## Computed properties
+* e.g. `[fruit]` 
+* square brackets can be used in an object literal (i.e. `let bag = { [fruit]:5, };`)
+* it results in the property **value** being named as expressed by the variable `fruit`
+* in summary, SQUARE brackets for more complex situations, while DOT notation for straightforward applications
+
+## Property value shorthand
+* it's common to make a property from a variable
+* thus, instead of `name:name`, `name` suffices
+* e.g. `{ name, age, }` instead of `{ name:name, age:age }`
+
+## Property name limitations
+* there are language-reserved words such as `for` `let` `return` etc. 
+* however, object properties face no such restriction/limitation, and can be any string, or even symbol
+* be aware that if a numeral such as `0` is used, it becomes a string `"0"` when used as a property key
+* note the special property name called `__proto__`
+
+## Property existence test with `in` operator
+* Reading a non-existing property would return `undefined`
+* A better approach is to use the `in` operator 
+* e.g. `"key" in object`
+* The primary reason for doing so is to handle a situation where the value held by a key is equal to `undefined`. Then testing for `undefined` will not work reliably.
+> let obj = { test: undefined };
+> 
+> alert( obj.test ); // it's undefined, so - no such property?
+> 
+> alert( "test" in obj ); // true, the property does exist!
+
+## `for ... in` loop
+> for (key in object) { }
+
+* and alternative syntax: `for(prop in obj){}`
+
+## Ordering
+* Properties named by **integers** (i.e. 1, 2, 3 etc) are sorted (aka "integer properties)
+* Other properties are sorted by creation order
+
+>>>>>>> acac08d94d68e7ec9607962d9139091f0866c9b1
