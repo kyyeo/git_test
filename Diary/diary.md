@@ -229,15 +229,23 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * Objects, as a data type, has a list of **properties**, that are `key: value` pairs.
 
 ## Object operators
-* access an object's property value through dot `.`notation. However, dot notation does not work with expressions (e.g. `let key="likes birds"; object.key //undefined`)
+* access an object's property value through dot `.`notation. However, **dot notation** does not work with expressions (e.g. `let key="likes birds"; object.key //undefined`)
 * property keys can be named in a multiword fashion (e.g. "likes birds": true). However, the declaration must be in quotes. These leads to issues when retrieving values through dot notation, as `object.likes birds` is unrecognised. Best practice is to apply kebab case (e.g. likes_birds). One solution is to use square bracket notation `object["likes birds"]`, which can work with expressions (e.g. `let key="likes birds"; object[key]`)
+  * if a property is also an object, then the concept of **sub-namespaces** applies
+  * e.g. `object.name.first`
 * `delete` operator to remove a property (e.g. `delete object[key]`)
 
 ## Computed properties
 * e.g. `[fruit]` 
 * square brackets can be used in an object literal (i.e. `let bag = { [fruit]:5, };`)
+  * this is called **Bracket notation**
 * it results in the property **value** being named as expressed by the variable `fruit`
 * in summary, SQUARE brackets for more complex situations, while DOT notation for straightforward applications
+
+## Set new members
+* a new member can be set for Objects
+* this can be done by naming the new member (i.e. key) and setting its value
+* e.g. `object.farewell = function() { alert("bye"); }`
 
 ## Property value shorthand
 * it's common to make a property from a variable
@@ -277,3 +285,9 @@ Fri 08 Oct 2021 12:09:47 PM +08
 > bio: function() { ... } 
 > }
 
+* subsequently call the function using `person.bio()`
+
+## `this`
+* the keyword `this` refers to the current object
+* it is helpful to use this reserved keyword, as it ensures that the right values are used
+* 
