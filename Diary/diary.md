@@ -23,14 +23,14 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * _function arguments_ are passed to the function; the value to be used by the function!
 * functions that are part of objects are commonly referred to as _methods_
 * there is such a thing as an _anonymous_ function, which does not have a name (aka function expression, which is not hoisted). 
-** best used with an event handler.
+ * best used with an event handler.
 > e.g. 
 > const myGreeting = function() { alert('hello') };
 * parameters are sometimes called arguments, properties, or even attributes
 
 ### Function Scope
 * variables defined within a function are said to be _inside their own separate scope_
-** this means they are unreachable from code outside the function
+ * this means they are unreachable from code outside the function
 * there is a top level known as **Global Scope**, where values are accesssible from everywhere
 - [x] interestingly, if there are conflicting functions (e.g. similarly named) across multiple JavaScript source files, then the first function declaration is used, while the second is ignored
 * functions can be called from **anywhere**, even from within another function. this behaviour differs from variables.
@@ -41,7 +41,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 
 * || operator is useful in checking if a valid argument was passed to the function `text = text || 'empty'; //if undefined or falsy, then set as 'empty'`
 
-** another way is with the _nullish operator_ ?? which checks if an expression is defined (i.e. neither null nor undefined) `a ?? b; //if a is defined, then a. else, if a is undefined, then b.`
+ * another way is with the _nullish operator_ ?? which checks if an expression is defined (i.e. neither null nor undefined) `a ?? b; //if a is defined, then a. else, if a is undefined, then b.`
 * `return` can also be used without a value!
 > e.g.
 > function showMovie(age) {
