@@ -202,8 +202,22 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * remember that functions can be assigned to variables
 * note that _callbacks_ are just functions passed into other functions as arguments
 * [Learn more about Callbacks](https://briggs.dev/blog/understanding-callbacks)
-<<<<<<< HEAD
-=======
+
+# JavaScript 30 by Wes Bos
+## Make a drum kit
+* `data` attributes allow developers to create and assign custom data points to HTML elements
+> e.g. `data-keys`
+
+* Not possible to event listen to a `nodelist` of elements; it is necessary to explicitly loop over every element in the nodelist and attach an event listener
+
+# Back to Rock-Paper-Scissors
+> `git checkout -b rps-ui` to create rps-ui branch
+> 
+> `git push origin rps-ui` to push rps-ui branch to remote repo
+> 
+> `git branch` to check current working branch
+> 
+
 
 # Objects
 * [javascript.info](https://javascript.info/object)
