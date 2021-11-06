@@ -4,16 +4,17 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ## upgraded to markdown, instead of plain text
 * ~~strikethrough~~
 * [Link to GitHub markdown syntax](https://guides.github.com/features/mastering-markdown/#syntax)
+* [More formatting help](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * blockquote
 > testing a blockquote line 1
 > blockquote line 2
 * `<html>` inline code
 * **remember** the blank, so that bullet points are parsed by GitHub!
+  * 2 spaces for a subpoint!
 
 ## JavaScript breakpoints
 * The breakpoints pane in Chrome devtools is useful to observe all identified breakpoints
 * XHR stands for XMLHttpRequest and can be a breakpoint once send() is called
-  * 2 spaces for a subpoint!
   * XHR breakpoints help debug incorrect URLs
 * debug(functionName) to pause when a specific function is called
 * Question: What does it mean when a target function is _in scope_?
@@ -91,7 +92,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * notice that one difference is the semi-colon at the end
 
 * know that functions can be passed as a parameter to a function
-** it's how to refer to that function argumen within the expression/declaration which is key
+  * it's how to refer to that function argumen within the expression/declaration which is key
 > e.g.
 > 
 > function ask(question, yes, no) {
@@ -147,7 +148,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 * if named indexes are used on arrays, JS redefines it to an object, which will produce incorrect results when using some array methods/properties
 
 * subtle difference between `const points=[40]` vs `const points = new Array(40);`
-** former creates one array with one element, while the latter creates an array with 40 undefined elements
+  * former creates one array with one element, while the latter creates an array with 40 undefined elements
 
 * identifying an array (instead of using `typeof`):
 1. `Array.isArray(fruits)` method
@@ -271,4 +272,8 @@ Fri 08 Oct 2021 12:09:47 PM +08
 
 ## Functions within an Object
 * A property's value can be a function!
-* 
+> e.g.
+> const person = { 
+> bio: function() { ... } 
+> }
+
