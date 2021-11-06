@@ -81,14 +81,15 @@ Fri 08 Oct 2021 12:09:47 PM +08
 > 
 > let func = SayHi;
 
-*2 ways to create functions:
-** function **declaration**:
+* 2 ways to create functions:
+1. function **declaration**:
 > function sayHi() { alert ("hello"); }
 
-** function **expression**:
+2. function **expression**:
 > let sayHi = function() { alert("hello"); };
 
-** notice that one difference is the semi-colon at the end
+* notice that one difference is the semi-colon at the end
+
 * know that functions can be passed as a parameter to a function
 ** it's how to refer to that function argumen within the expression/declaration which is key
 > e.g.
@@ -104,14 +105,14 @@ Fri 08 Oct 2021 12:09:47 PM +08
 > ask("Do you agree?", showOk, showCancel);
 
 * in the above example, showOk and showCancel are examples of **callback functions**
-** [For more about JS callback functions](https://javascript.info/function-expressions)
+...[For more about JS callback functions](https://javascript.info/function-expressions)
 
 * some subtle notes:
-** function declaration can be called **earlier** than it is defined
-** function expression is created when code execution reaches it, and is only usable from that moment (e.g. let welcome;)
-** a function expression can be assigned to a variable ( e.g. welcome = function(){...} )
-** a function declaration is visible within the block scope (i.e. {...}) where it resides
-** however, if a function expression is assigned to a variable within the block scope, then it can be called even outside the block scope! 
+...function declaration can be called **earlier** than it is defined
+...function expression is created when code execution reaches it, and is only usable from that moment (e.g. let welcome;)
+...a function expression can be assigned to a variable ( e.g. welcome = function(){...} )
+...a function declaration is visible within the block scope (i.e. {...}) where it resides
+...however, if a function expression is assigned to a variable within the block scope, then it can be called even outside the block scope! 
 
 ### Call stacks
 * [About Call Stacks](https://javascript.plainenglish.io/node-call-stack-explained-fd9df1c49d2e?gi=ed58e97ab7c6) and more technical JS matters; good read!
@@ -267,3 +268,7 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ## Ordering
 * Properties named by **integers** (i.e. 1, 2, 3 etc) are sorted (aka "integer properties)
 * Other properties are sorted by creation order
+
+## Functions within an Object
+* A property's value can be a function!
+* 
