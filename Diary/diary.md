@@ -290,4 +290,12 @@ Fri 08 Oct 2021 12:09:47 PM +08
 ## `this`
 * the keyword `this` refers to the current object
 * it is helpful to use this reserved keyword, as it ensures that the right values are used
-* 
+
+# Arrays
+* map(), filter(), console.table(), ternary operator, sort(), reduce()
+* ESX spread, or Array.from()
+* filter(), split()
+* reduce() needs intial values!
+
+
+
